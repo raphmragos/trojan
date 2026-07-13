@@ -25,4 +25,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: your-docker-raphmragos/rafaeltv:latest
+          tags: your-docker-raphmragos/trojan:latest
