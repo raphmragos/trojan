@@ -1,0 +1,22 @@
+{
+  "log": { "loglevel": "none" },
+  "inbounds": [
+    {
+      "port": 10000,
+      "listen": "127.0.0.1",
+      "protocol": "trojan",
+      "settings": {
+        "clients": [
+          { "password": "pogibaako" }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": { "path": "/Rafael-Tv" }
+      }
+    }
+  ],
+  "outbounds": [
+    { "protocol": "freedom" }
+  ]
+}
